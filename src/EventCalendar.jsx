@@ -36,7 +36,7 @@ useEffect(()=>{
             return;
         }
         if (!selectedDate || !eventText) {
-            alert('Please select a date and enter an event description.');
+            alert('Please enter an event description.');
             return;
         }
 
